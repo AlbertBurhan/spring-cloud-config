@@ -1,9 +1,0 @@
-spring:
-  profiles:
-    active: git
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/AlbertBurhan/spring-cloud-config
-          searchPaths:
