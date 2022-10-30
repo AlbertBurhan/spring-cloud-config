@@ -1,6 +1,6 @@
 server:
   port: 9090
-greeting: Haloow
+greeting: Haii
 greetings:
   EN: Hello
   ES: Hola
