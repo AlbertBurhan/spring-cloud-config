@@ -1,9 +1,14 @@
 spring:
   profiles:
     active: git
+  application:
+    name: config-server
   cloud:
     config:
+      discovery:
+        enabled: true
       server:
         git:
           uri: https://github.com/AlbertBurhan/spring-cloud-config
           searchPaths: kumpulan-config
+          default-label: main
